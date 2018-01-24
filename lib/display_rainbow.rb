@@ -1,4 +1,4 @@
-def display_rainbow(colors)
+def display_rainbow(color)
   puts "#{colors}"
 end
-display_rainbow(colors)
+display_rainbow(color)
