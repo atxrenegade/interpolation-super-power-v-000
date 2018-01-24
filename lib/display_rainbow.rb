@@ -1,11 +1,4 @@
-def display_rainbow(colors)
-  n = 0
-  do
-    puts "#{colors[n]}"
-    n += 1
-  while n > 7   
-  end
-end
 
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-def display_rainbow(colors)
+  def display_rainbow(color)
+    puts"R: #{color[0]}, O: #{color[1]}, Y: #{color[2]}, G: #{color[3]}, B: #{color[4]}, I: #{color[5]}, V: #{color[6]}"
+  end
