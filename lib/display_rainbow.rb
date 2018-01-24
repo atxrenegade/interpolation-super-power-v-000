@@ -1,8 +1,9 @@
 def display_rainbow(colors)
   n = 0
-  while n > 7 do
+  do
     puts "#{colors[n]}"
     n += 1
+  while n > 7   
   end
 end
 
