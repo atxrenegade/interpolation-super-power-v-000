@@ -1,4 +1,4 @@
 def display_rainbow(colors)
-  puts "#{colors}
+  puts "#{colors}"
 end
 display_rainbow(colors)
