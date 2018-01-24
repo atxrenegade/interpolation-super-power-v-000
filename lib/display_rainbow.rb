@@ -5,4 +5,3 @@ def display_rainbow(colors)
     n += 1
   end
 end
-
