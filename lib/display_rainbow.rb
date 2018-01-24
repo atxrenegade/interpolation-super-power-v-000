@@ -1,4 +1,9 @@
-def display_rainbow(color)
-  puts "#{colors}"
+def display_rainbow(colors)
+  rainbow = colors
+  n = 0
+  while n > 7
+    puts "#{colors[n]}"
+    n += 1
+  end  
 end
 display_rainbow(color)
